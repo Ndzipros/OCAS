@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, session, jsonify
 import time, threading, hashlib, os
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("SECRET_KEY", "ocas_secret_2025")
+app.secret_key = "ocas2025xyzSecureKey999"
 
 connected_devices = {}
 DEVICE_TIMEOUT = 30
